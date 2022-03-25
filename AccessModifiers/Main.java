@@ -6,8 +6,8 @@ public class Main {
         
         First a = new First("hasan");
         System.out.println(a.getStr());
-
-
+        a.setStr("selami");
+        System.out.println(a.getStr());
 
     }
 }

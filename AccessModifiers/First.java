@@ -2,6 +2,8 @@ package AccessModifiers;
 
 public class First {
 
+    // Bir sınıfa private demek hatadır. Sınıfın anlamı kalmaz. Kalıtımda bu durum halledilebilir tabi de şuan değil.
+
     private String str;
 
     First(String str){
@@ -12,6 +14,13 @@ public class First {
         return this.str;
     }
 
+    public void setStr (String newStr){
+        this.str = newStr;
+    }
+
+    // public = heryerden gel bana ulaş
+    // private = bana sadece benim yapımdan yada sınıfımdan ulaş
+    // protected = bana sadece paket içinden ulaş
 }
 
 /*
