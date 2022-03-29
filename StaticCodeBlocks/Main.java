@@ -6,6 +6,7 @@ public class Main {
         
         System.out.println(User.counter);
         User u1 = new User("hasan");
+        System.out.println(u1);
         System.out.println(User.counter);
 
     }
