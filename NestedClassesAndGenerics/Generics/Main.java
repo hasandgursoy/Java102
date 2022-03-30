@@ -28,9 +28,27 @@ public class Main {
 
         String[] arr = {"Java","102","Patika","Dev"};
         Integer[] intArr = {1,2,3,4};
-        Character[] c ={'J','A','V','A'};
+        Character[] cshar ={'J','A','V','A'};
 
+        Print.printArray(arr);
         Print.printArray(intArr);
+        Print.printArray(cshar);
+
+        Student<String> stu = new Student<>();
+        stu.add("Hasan");
+        stu.delete("SSS");
+        stu.update("New Version");
+        stu.select();
+
+
+        // Bounded Types
+
+        // Integer,Double,Float extends Number
+        // Although it is of type T, we have limited it to only take number expressions
+        Integer realNull = null;
+        Nullable<Integer> nom = new Nullable<Integer>(realNull);
+        nom.run();
+
     }
 
    
