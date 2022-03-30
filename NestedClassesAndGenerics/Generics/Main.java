@@ -26,7 +26,13 @@ public class Main {
 
         t.showInfo();
 
+        String[] arr = {"Java","102","Patika","Dev"};
+        Integer[] intArr = {1,2,3,4};
+        Character[] c ={'J','A','V','A'};
 
+        Print.printArray(intArr);
     }
+
+   
 
 }
