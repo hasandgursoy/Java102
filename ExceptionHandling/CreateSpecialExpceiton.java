@@ -10,5 +10,9 @@ public class CreateSpecialExpceiton  extends Exception{
     // İlk yapmam gereken şey neleri constructor ekleyebiliyoruz bakmak.
     // Kendi hata sınıfımızı yazabiliyoruz.
 
-    
+    @Override
+    public String toString(){
+        return "Bu AgeCheck sınıfına ait bir Exception !";
+    }
+
 }
