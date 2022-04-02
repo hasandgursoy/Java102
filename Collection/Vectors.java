@@ -24,7 +24,7 @@ public class Vectors {
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
-
+        
 
 
 
