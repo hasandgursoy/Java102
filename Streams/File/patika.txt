@@ -1,0 +1,3 @@
+Patika.dev ile Java 102 ogreniyorum.
+Bu bir fileInputSteam ornegidir.OutPutStream ogreniyorum. 
+ Patika.dev

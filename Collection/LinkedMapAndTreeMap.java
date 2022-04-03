@@ -20,7 +20,7 @@ public class LinkedMapAndTreeMap {
                 return o1-o2;
             }
             
-        });
+        }.reversed());
 
         students.put(101, new Student("Hasan",100));
         students.put(102, new Student("Selim", 1000));
