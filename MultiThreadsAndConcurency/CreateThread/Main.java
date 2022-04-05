@@ -18,6 +18,25 @@ public class Main {
         // Normalde bir sefer de tek bir thread çalışır ancak biz bunu kendi threadlerimizi üreterek aşabiliyoruz.
         // Bu durum da Multithread kavramını ortaya çıkarıyor.
         // Threadler'in başlaması için start() fonksiyonunu kullanıyoruz.
+        // Threadleri extend etmek yerine birden Runnable yapılar da kullanabiliriz. Hem interface olduğu için miras kısmı boş kalır.
+
+        // Runnable ile oluşturduğumuz yapıları thread sınıfından üretilmiş nesne atıyoruz.
+
+        Counter2 s1 = new Counter2("s1");
+        Counter2 s2 = new Counter2("s2");
+        Counter2 s3 = new Counter2("s3");
+
+        Thread t1 = new Thread(s1);
+        Thread t2 = new Thread(s2);
+        Thread t3 = new Thread(s3);
+
+        t1.start();
+        t2.start();
+        t3.start();
+
+        
+
+
 
 
 
