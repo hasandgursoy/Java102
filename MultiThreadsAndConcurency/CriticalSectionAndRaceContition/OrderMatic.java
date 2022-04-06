@@ -17,12 +17,7 @@ public class OrderMatic implements Runnable {
 
     @Override
     public void run() {
-        try {
-            Thread.sleep(2000);
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
-
+        
         synchronized (LOCK) {
             this.increaseOrder();
         }

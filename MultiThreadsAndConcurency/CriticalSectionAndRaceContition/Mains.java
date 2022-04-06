@@ -7,6 +7,7 @@ public class Mains {
         OrderMatic o1 = new OrderMatic();
         List<Thread> islemler = new ArrayList<>();
 
+        
         for (int i = 0; i < 100; i++) {
             Thread t = new Thread(o1);
             islemler.add(t);
