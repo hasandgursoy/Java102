@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         
         System.out.println("Uygulama başladı");
         for (int i = 0; i < 10; i++) {
@@ -22,9 +22,9 @@ public class Main {
 
         // Runnable ile oluşturduğumuz yapıları thread sınıfından üretilmiş nesne atıyoruz.
 
-        Counter2 s1 = new Counter2("s1");
-        Counter2 s2 = new Counter2("s2");
-        Counter2 s3 = new Counter2("s3");
+        Counter2 s1 = new Counter2("s1",1);
+        Counter2 s2 = new Counter2("s2",1);
+        Counter2 s3 = new Counter2("s3",1);
 
         Thread t1 = new Thread(s1);
         Thread t2 = new Thread(s2);
@@ -33,7 +33,12 @@ public class Main {
         t1.start();
         t2.start();
         t3.start();
+ 
+        // Thread'i Durdurmak
 
+        t1.start();
+        Thread.sleep(2000);
+        s1.stopper();
         
 
 
