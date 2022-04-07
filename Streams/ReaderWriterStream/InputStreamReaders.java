@@ -1,4 +1,4 @@
-package ReaderWriterStream;
+package Streams.ReaderWriterStream;
 
 import java.io.FileInputStream;
 import java.io.InputStreamReader;

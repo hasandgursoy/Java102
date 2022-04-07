@@ -1,4 +1,4 @@
-package PrintStreams;
+package Streams.PrintStreams;
 
 import java.io.FileNotFoundException;
 import java.io.PrintStream;

@@ -1,4 +1,4 @@
-package PrintWriters;
+package Streams.PrintWriters;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

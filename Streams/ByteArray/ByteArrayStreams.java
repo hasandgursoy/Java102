@@ -1,4 +1,4 @@
-package ByteArray;
+package Streams.ByteArray;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

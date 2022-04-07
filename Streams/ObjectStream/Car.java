@@ -1,4 +1,4 @@
-package ObjectStream;
+package Streams.ObjectStream;
 
 import java.io.Serializable;
 

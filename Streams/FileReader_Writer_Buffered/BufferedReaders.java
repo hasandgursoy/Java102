@@ -1,4 +1,4 @@
-package FileReader_Writer_Buffered;
+package Streams.FileReader_Writer_Buffered;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
